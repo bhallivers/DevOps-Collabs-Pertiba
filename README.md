@@ -1,13 +1,13 @@
-# 🧩 Praktikum DevOps Pertemuan 5
+Praktikum DevOps Pertemuan 5
 
 Proyek ini digunakan untuk **latihan kolaborasi menggunakan GitHub** dalam mata kuliah *Development and Operations (DevOps)*.
 
-## 🎯 Tujuan
+Tujuan
 Mahasiswa dapat memahami konsep **Continuous Integration (CI)** dengan praktik langsung berkolaborasi di satu proyek bersama.
 
 ---
 
-## 📘 Langkah Praktikum
+Langkah Praktikum
 
 1. **Fork** repository ini ke akun GitHub Anda.  
 2. **Clone** ke laptop/HP (via Termux atau aplikasi GitHub).  
