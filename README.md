@@ -1,40 +1,56 @@
-**Praktikum DevOps Pertemuan 5**
+# 🌐 Praktikum DevOps - CI/CD (GitHub Pages)
 
-Proyek ini digunakan untuk **latihan kolaborasi menggunakan GitHub** dalam mata kuliah *Development and Operations (DevOps)*.
+Proyek ini digunakan untuk pembelajaran mata kuliah **Development Operations (DevOps)** di **Universitas Pertiba**.
 
-Tujuan
-Mahasiswa dapat memahami konsep **Continuous Integration (CI)** dengan praktik langsung berkolaborasi di satu proyek bersama.
-
----
-
-Langkah Praktikum
-
-1. **Fork** repository ini ke akun GitHub Anda.  
-2. **Clone** ke laptop/HP (via Termux atau aplikasi GitHub).  
-3. Buat **branch baru** dengan nama Anda:
-   ```bash
-   git checkout -b nama-anda
-   ```
-4. Edit file `index.html`:  
-   Tambahkan kartu nama Anda di bagian `<div class="cards">`, contohnya:
-   ```html
-   <div class="card">
-     <h3>Nama Anda</h3>
-     <p>Mahasiswa Pertiba</p>
-   </div>
-   ```
-5. **Commit dan push** perubahan Anda:
-   ```bash
-   git add .
-   git commit -m "Menambahkan nama [Nama Anda]"
-   git push origin nama-anda
-   ```
-6. Di GitHub, buat **Pull Request (PR)** ke branch `main` milik dosen.  
-7. Setelah PR diterima → halaman otomatis terupdate di GitHub Pages 🎉
-8. buka https://bhallivers.github.io/DevOps-Collabs-Pertiba/ untuk melihat perubahannya.
+Mahasiswa akan belajar dasar **Continuous Integration** dan **Continuous Deployment (CI/CD)** menggunakan GitHub Pages.
 
 ---
 
-## 💡 Tips
-- Gunakan browser mode desktop atau aplikasi GitHub untuk kemudahan edit.  
-- Jika muncul konflik, diskusikan bareng di Zoom — ini bagian penting dari DevOps!
+##  Langkah Praktikum Mahasiswa
+
+### 1️⃣ Buka repositori
+Buka link repositori:
+https://github.com/bhallivers/DevOps-Collabs-Pertiba/
+
+
+### 2️⃣ Masuk ke folder `/praktikum`
+Buka file `template.html`, lalu klik **Copy raw file** atau salin isinya.
+
+### 3️⃣ Buat file baru
+Klik tombol **Add file → Create new file**, beri nama file seperti ini:
+praktikum/mahasiswa_nama.html
+
+
+### 4️⃣ Paste isi template
+Tempel isi `template.html`, lalu ubah:
+- Nama kamu
+- NIM
+- Perubahan kecil di tampilan (warna, teks, dsb)
+
+### 5️⃣ Simpan (Commit changes)
+Tambahkan pesan seperti:
+Menambahkan file mahasiswa_nama.html
+
+Lalu klik **Commit changes** ✅
+
+### 6️⃣ Lihat hasilnya
+Setelah 1 menit, buka link:
+https://github.com/bhallivers/DevOps-Collabs-Pertiba/Praktikum/mahasiswa_nama.html
+
+
+---
+
+##  Tujuan Pembelajaran
+- Mengenal alur kerja kolaboratif menggunakan **GitHub**
+- Menerapkan konsep **CI/CD sederhana** melalui GitHub Pages
+- Berlatih melakukan **commit**, **push**, dan **deployment otomatis**
+
+---
+
+##  Dosen Pengampu
+**Muhammad Iqbal Hanafi, S.Kom., M.Kom.**
+
+---
+
+> “DevOps bukan tentang alat, tapi tentang kolaborasi dan kecepatan belajar.”
+
