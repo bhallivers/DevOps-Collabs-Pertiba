@@ -1,4 +1,4 @@
-Praktikum DevOps Pertemuan 5
+**Praktikum DevOps Pertemuan 5**
 
 Proyek ini digunakan untuk **latihan kolaborasi menggunakan GitHub** dalam mata kuliah *Development and Operations (DevOps)*.
 
@@ -30,7 +30,8 @@ Langkah Praktikum
    git push origin nama-anda
    ```
 6. Di GitHub, buat **Pull Request (PR)** ke branch `main` milik dosen.  
-7. Setelah PR diterima → halaman otomatis terupdate di GitHub Pages 🎉  
+7. Setelah PR diterima → halaman otomatis terupdate di GitHub Pages 🎉
+8. buka https://bhallivers.github.io/DevOps-Collabs-Pertiba/ untuk melihat perubahannya.
 
 ---
 
