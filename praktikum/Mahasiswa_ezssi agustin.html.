@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Latihan CI/CD - Ezssi Agustin</title>
+  <link rel="stylesheet" href="../style.css">
+  <style>
+    body {
+      background-color: #e6f7ff; /* warna latar belakang */
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #6a1b9a;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    img.profile {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      display: block;
+      margin: 20px auto;
+      transition: transform 0.3s ease;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    img.profile:hover {
+      transform: scale(1.1);
+    }
+
+    .fade-in {
+      opacity: 0;
+      animation: fadeIn 2s forwards;
+    }
+
+    @keyframes fadeIn {
+      to {
+        opacity: 1;
+      }
+    }
+
+    button {
+      background-color: #009688;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 1em;
+      display: block;
+      margin: 20px auto;
+    }
+
+    button:hover {
+      background-color: #00796b;
+    }
+
+    footer {
+      background-color: #f1f1f1;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+      font-size: 0.9em;
+      color: #333;
+    }
+
+    marquee {
+      color: #d84315;
+      font-size: 1.1em;
+      margin: 20px 0;
+    }
+  </style>
+  <script>
+    function ubahLatar() {
+      const warnaAcak = '#' + Math.floor(Math.random()*16777215).toString(16);
+      document.body.style.backgroundColor = warnaAcak;
+    }
+  </script>
+</head>
+<body>
+  <header>
+    <h1 class="fade-in">Halaman Praktikum DevOps</h1>
+  </header>
+
+  <main>
+    <section class="fade-in">
+      <h2>Data Mahasiswa</h2>
+      <p><strong>Nama:</strong> Ezssi Agustin</p>
+      <p><strong>NIM:</strong> 2356204003</p>
+      <p><strong>Perubahan:</strong> 
+        - Ganti warna latar belakang<br>
+        - Warna header diubah<br>
+        - Tambahkan gambar profil<br>
+        - Tambahkan teks bergerak<br>
+        - Tambahkan animasi teks dan hover efek<br>
+        - Tambahkan tombol interaktif untuk mengubah latar
+      </p>
+    </section>
+
+    <section class="fade-in">
+      <h2>Eksperimen Mahasiswa</h2>
+      <ul>
+        <li>Header dengan warna ungu dan teks animasi muncul</li>
+        <li>Latar belakang bisa berubah secara acak dengan tombol</li>
+        <li>Gambar profil dengan efek hover zoom</li>
+        <li>Efek fade-in di beberapa elemen</li>
+        <li>Teks berjalan menggunakan marquee</li>
+        <li>Tombol interaktif</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Profil Mahasiswa</h2>
+      <img src="https://via.placeholder.com/160" alt="Foto Profil" class="profile">
+      <marquee behavior="scroll" direction="left">Selamat datang, Ezssi Agustin, di halaman praktikum DevOps 2025! 🎉</marquee>
+      <button onclick="ubahLatar()">Ubah Warna Latar</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 - Praktikum DevOps Pertiba</p>
+  </footer>
+</body>
+</html>
+
