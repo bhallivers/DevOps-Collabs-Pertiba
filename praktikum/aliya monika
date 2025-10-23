@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Latihan CI/CD - Nama Mahasiswa</title>
+  <title>Latihan CI/CD - Aliya Monika</title>
   <link rel="stylesheet" href="../style.css">
 </head>
 <body>
@@ -15,8 +15,8 @@
   <main>
     <section>
       <h2>Data Mahasiswa</h2>
-      <p><strong>Nama:</strong> (isi nama kamu)</p>
-      <p><strong>NIM:</strong> (isi NIM kamu)</p>
+      <p><strong>Nama:</strong> (Aliya Monika)</p>
+      <p><strong>NIM:</strong> (2356204001)</p>
       <p><strong>Perubahan:</strong> (contoh: ubah warna latar belakang, ubah teks, tambahkan gambar, dsb)</p>
     </section>
 
